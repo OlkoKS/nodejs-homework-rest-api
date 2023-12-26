@@ -1,5 +1,6 @@
-const { HttpError, sendEmail } = require("../../helpers");
+const { HttpError } = require("../../helpers");
 const { User } = require("../../models");
+const sendEmail = require("../../services");
 require("dotenv").config();
 const { BASE_URL } = process.env;
 
